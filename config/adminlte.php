@@ -240,10 +240,6 @@ return [
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
-        ],
-        [
-            'type' => 'sidebar-menu-search',
-            'text' => 'search',
         ],     
         [
             'text' => 'To Do\'s',
