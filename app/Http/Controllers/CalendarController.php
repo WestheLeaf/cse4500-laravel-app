@@ -44,7 +44,7 @@ class CalendarController extends Controller
         ]);
 
         //After validation happens then call the Event model to create a new record and save the data in the database
-        $eventsfeed = Calendar::create([
+        $Calendar = Calendar::create([
             'title' => $request->title,
             'start_at' => date($request->start_at),
             'end_at' => date($request->end_at),
