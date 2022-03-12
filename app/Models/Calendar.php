@@ -10,5 +10,4 @@ class Calendar extends Model
     use HasFactory;
     protected $fillable = ['title','start_at','end_at'];
     protected $table = 'calendar';
-    use HasFactory;
 }

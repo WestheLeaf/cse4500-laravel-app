@@ -18,6 +18,8 @@ return new class extends Migration
             $table->string('title');
             $table->date('start_at');
             $table->date('end_at');
+            $table->date('updated_at');
+            $table->date('created_at');
         });
     }
 
